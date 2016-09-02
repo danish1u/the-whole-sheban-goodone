@@ -1,4 +1,5 @@
 <!--
+document.writeln(" <div class=\"efusion-main\"> ");
 document.writeln(" <div class=\"efusion-wrapcen\"> ");
 document.writeln(" <div id=\"efusion-header\"> ");
 document.writeln("      ");
@@ -53,6 +54,7 @@ document.write(' <div id="slider1_container" style="position: relative; top: 0px
 document.writeln(" 	 ");
 document.writeln(" </div> ");
 document.writeln(" <!--STORE BANNER //ENDS--> ");
+document.writeln(" </div> ");
 document.writeln(" </div> ");
 document.writeln("  ");
 
