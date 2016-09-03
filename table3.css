@@ -1,9 +1,9 @@
-        .maintabls table th td {
+        .maintabls td {
             border: 1px solid black;
             border-collapse: collapse;
         }
 
-        .maintabls th td {
+        .maintabls td {
             padding: 5px;
         }
 
