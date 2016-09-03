@@ -1684,7 +1684,7 @@ background-color: #fff;
 .center{
   text-align: center;
 margin: auto;
-    padding-left: 189px;
+    padding-left: 188px;
 }
 #LeftPanel3 {
   width: 210px !important;
@@ -1949,11 +1949,11 @@ label .fa {
     overflow: hidden;
 }
 .sc_searchone {
-  width: 991px;
-  height: 40px;
-  float: right;
-  display: inline;
-  margin: 29px -46px 0 0px;
+width: 906px;
+    height: 40px;
+    float: right;
+    display: inline;
+    margin: 39px -46px 0 0px;
 }
 .sc_searchone .inp_srh {
     width: 303px;
