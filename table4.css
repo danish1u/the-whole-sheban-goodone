@@ -3,11 +3,11 @@
             border-collapse: collapse;
         }
 
-        .maintabls td {
+        .maintabls td, th {
             padding: 5px;
         }
 
-        .maintabls th {
+        .maintabls th, td, {
             text-align: center;
         }
         #batten p a{
