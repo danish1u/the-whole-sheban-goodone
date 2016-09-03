@@ -1,13 +1,13 @@
-        .maintabls table, tr, td, th{
+        .maintabls td{
             border: 1px solid black;
             border-collapse: collapse;
         }
 
-        .maintabls td, th {
+        .maintabls td th {
             padding: 5px;
         }
 
-        .maintabls th, td, {
+        .maintabls th td {
             text-align: center;
         }
         #batten p a{
