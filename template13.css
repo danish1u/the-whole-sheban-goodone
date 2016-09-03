@@ -1501,21 +1501,21 @@ background-color: #fff;
   ;
 }
 .sc_search .inp_srh {
-  width: 199px;
-  margin-left: 16px;
-  height: 19px;
-  padding: 5px;
-  background: url("http://www.360save.net/toolsempire/images/search_bg.jpg") no-repeat;
-  background-position: top: 2px;
-  left: 2px;
-  border: 2px solid #fff;
-  outline: none;
-  color: #333;
-  line-height: 26px;
-  font-size: 14px;
-  font-family: arial;
-  display: block;
-  float: left;
+     width: 199px;
+    margin-left: 16px;
+    height: 33px;
+    padding: 5px;
+    background: url("http://www.360save.net/toolsempire/images/search_bg.jpg") no-repeat;
+    background-position: top: 2px;
+    left: 2px;
+    border: 2px solid #fff;
+    outline: none;
+    color: #333;
+    line-height: 26px;
+    font-size: 14px;
+    font-family: arial;
+    display: block;
+    float: left;
 }
 .sc_search button:hover {
   color: grey;
@@ -1684,7 +1684,7 @@ background-color: #fff;
 .center{
   text-align: center;
 margin: auto;
-    padding-left: 309px;
+    padding-left: 181px;
 }
 #LeftPanel3 {
   width: 210px !important;
@@ -1956,21 +1956,21 @@ label .fa {
   margin: 29px -46px 0 0px;
 }
 .sc_searchone .inp_srh {
-  width: 303px;
-  margin-left: -105px;
-  height: 25px;
-  padding: 5px;
-  background: url("http://www.360save.net/toolsempire/images/search_bg.jpg") no-repeat;
-  background-position: top: 2px;
-  left: 2px;
-  border: 2px solid #fff;
-  outline: none;
-  color: #333;
-  line-height: 26px;
-  font-size: 14px;
-  font-family: arial;
-  display: block;
-  float: left;
+    width: 303px;
+    margin-left: -12px;
+    height: 37px;
+    padding: 5px;
+    background: url("http://www.360save.net/toolsempire/images/search_bg.jpg") no-repeat;
+    background-position: top: 2px;
+    left: 2px;
+    border: 2px solid #fff;
+    outline: none;
+    color: #333;
+    line-height: 26px;
+    font-size: 14px;
+    font-family: arial;
+    display: block;
+    float: left;
 }
 .sc_searchone button:hover {
   color: grey;
