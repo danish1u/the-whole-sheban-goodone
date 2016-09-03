@@ -1,0 +1,715 @@
+.mod_focus_show {
+  width: 760px;
+height: auto;
+position: relative;
+margin: 0 auto;
+background-color: #fff;
+}
+.mod_focus_show .mod_focus_pic {
+  display: block;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.mod_focus_show .mod_focus_pic li, .mod_focus_show .mod_focus_pic a, .mod_focus_show .mod_focus_pic img {
+  display: block;
+  width: 600px;
+  height: 600px;
+  margin-top: 35px;
+}
+.mod_focus_show .mod_focus_pic li {
+  position: absolute;
+  left: 66px;
+  list-style: none;
+  top: 12px;
+}
+.mod_focus_show2 {
+  width: 100%;
+  margin: 0 auto;
+}
+.focus_switch {
+  width: 720px;
+  height: 0px;
+  z-index: 2;
+  position: relative;
+  background-color: #fff;
+}
+.focus_switch a {
+  float: left;
+  width: 45px;
+  height: 100px;
+  background-image: url("http://i61.photobucket.com/albums/h76/Nimo18/silder_btn12_zpso9oklawf.jpg?t=1471376124");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.focus_switch .icon_prev {
+  background-position: 0 0;
+  margin: 0 1px 0 0;
+  position: absolute;
+  left: 0px;
+  top: -300px;
+}
+.focus_switch .icon_prev:hover {
+  background-position: -100px 0;
+}
+.focus_switch .icon_next {
+  background-position: -55px 0;
+      position: absolute;
+      right: -40px;
+      top: -298px;
+}
+.focus_switch .icon_next:hover {
+  background-position: -155px 0;
+}
+.mod_focus_show .mod_focus_list {
+  background: #fff;
+  overflow: hidden;
+  height: auto;
+  text-align: center;
+  width: 610px;
+  margin: auto;
+  margin-top: 61px;
+  margin-bottom: 64px;
+  margin-left: 36px;
+}
+.mod_focus_show .mod_focus_list li {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin: 6px 4px 8px 2px;
+  position: relative;
+  list-style: none;
+  ;
+}
+.mod_focus_show .mod_focus_list li a {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+.mod_focus_show .mod_focus_list li img {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+.mod_focus_show .mod_focus_list li a:hover {
+  _background: none;
+}
+.mod_focus_show .mod_focus_list li a:hover .mask, .mod_focus_show .mod_focus_list .current .mask {
+  display: none;
+}
+.mod_focus_show .mod_focus_list li .mask {
+  display: block;
+  height: 80px;
+  width: 80px;
+  position: relative;
+  top: -80px;
+  margin: 0 0 -80px;
+  eft: 0;
+  bottom: 0;
+  background: #fff;
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
+.mod_focus_show .mod_focus_list li .border {
+  display: none;
+}
+.mod_focus_show .mod_focus_list .current .border {
+  display: block;
+  height: 80px;
+  width: 80px;
+  font-size: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: url("http://www.360save.net/toolsempire/images/ncl_hov.gif") no-repeat;
+}
+.esd-main {
+  background: white;
+  width: 1200px;
+  margin: auto;
+  height: auto;
+}
+#esd-menu {
+  width: auto;
+  float: left;
+  margin: 32px 0 0 0;
+  padding: 0;
+  background: none;
+  padding-left: 60px;
+}
+#esd-menu ul {
+  list-style: none;
+  width: auto;
+  margin: 0 auto;
+  padding: 0;
+  display: table;
+  position: relative;
+}
+#esd-menu ul li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  float: left;
+}
+#esd-menu ul li.last {
+  border: 0 none;
+  margin: 0px;
+  padding: 0px;
+}
+#esd-menu ul li a {
+  margin: 0 10px;
+  padding: 0 0 7px 0;
+  list-style: none;
+  display: block;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: grey;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 0.5s ease-out;
+  background-position: center top;
+  letter-spacing: 1px;
+}
+#esd-menu ul li a:hover {
+  color: #fcb620;
+  text-decoration: none;
+  background: url("http://i61.photobucket.com/albums/h76/Nimo18/menu_hover_zpshoiirkz5.png?t=1471368789") no-repeat center bottom;
+}
+.esd-back {
+  width: 1182px;
+  height: 77px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 10px;
+  position: relative;
+  z-index: 5;
+  top: 0;
+  -webkit-box-shadow: 0 4px 4px -2px #000000;
+  -moz-box-shadow: 0 4px 4px -2px #000000;
+  box-shadow: 0 4px 4px -2px #000000;
+}
+.esd-back .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.7;
+  width: 1200px;
+  height: 100%;
+  background: white;
+}
+.sc_search {
+  width: 339px;
+  height: 40px;
+  float: right;
+  display: inline;
+      margin: 29px -46px 0 0px;
+  ;
+}
+.sc_search .inp_srh {
+  width: 199px;
+  margin-left: 16px;
+  height: 19px;
+  padding: 5px;
+  background: url("http://www.360save.net/toolsempire/images/search_bg.jpg") no-repeat;
+  background-position: top: 2px;
+  left: 2px;
+  border: 2px solid #fff;
+  outline: none;
+  color: #333;
+  line-height: 26px;
+  font-size: 14px;
+  font-family: arial;
+  display: block;
+  float: left;
+}
+.sc_search button:hover {
+  color: grey;
+}
+.sc_search button {
+  overflow: visible;
+      position: relative;
+      margin-left: -2px;
+      float: left;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+      height: 33px;
+      width: 72px;
+      font: bold 14px/36px 'Raleway', sans-serif;
+      color: #fff;
+      transition: all 0.3s ease-out;
+      text-transform: uppercase;
+      background: #6c1c88;
+      -moz-border-radius: 0 3px 3px 0;
+      -webkit-border-radius: 0 3px 3px 0;
+      border-radius: 0 3px 3px 0;
+}
+.sc_search button:before {
+  content: '';
+  position: absolute;
+  border-width: 8px 8px 8px 0;
+  border-style: solid solid solid none;
+  border-color: transparent #6c1c88  transparent;
+  top: 9px;
+  left: -6px;
+}
+.logo {
+  float: left;
+  padding-top: 4px;
+}
+.new {
+  text-align: center;
+}
+#esd-cathead {
+  background-image: url("http://www.efusionworld.com/estore/salmaqualitygold/store/images/cat-icon.png");
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: 12px 13px;
+  font-family: 'Ledger', serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0px 0 0 45px;
+  text-align: left;
+  text-decoration: none;
+  height: 60px;
+  line-height: 40px;
+  background-color: #6c1c88;
+}
+#esd-categories {
+  background: white;
+  width: 208px;
+  text-align: left;
+  margin: 0px;
+  position: relative;
+  top: -15px;
+  padding: 0px;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+#esd-categories ul.lev1 {
+  list-style-type: none;
+  width: 208px;
+  margin: 0px auto;
+  padding: 6px 0 0 0;
+}
+#esd-categories ul.lev1 li {
+  border-bottom: grey 1px dashed;
+  width: 208px;
+  margin: 0 0 0 0;
+  padding: 0 !important;
+  list-style: none;
+  text-align: left;
+  overflow: hidden;
+}
+#esd-categories ul.lev1 li.est-lastitem {
+  margin: 0px;
+  padding: 0px;
+  border: 0 none !important;
+}
+#esd-categories ul.lev1 li a {
+  color: grey;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  padding: 7px 0px 7px 15px;
+  margin: 0 0 0 10px;
+  font-weight: normal;
+  transition: all 0.7s ease-out;
+  background: url("http://aminoffandco.com/Ebay_store_2/wemanufacturejewelry/listing/images/left-img.png") no-repeat 0px 16px;
+}
+#esd-categories ul.lev1 li a:hover {
+  color: #F9B419;
+  font-weight: normal;
+  text-indent: 5px;
+  background-color: none;
+}
+#esd-categories ul.lev1 li span {
+  color: #313a43;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  padding: 8px 0px 8px 15px;
+  margin: 0 0 0 10px;
+  font-weight: normal;
+  transition: all 0.3s ease-out;
+  background: url("http://aminoffandco.com/Ebay_store_2/wemanufacturejewelry/listing/images/left-img.png") no-repeat 0px 16px;
+}
+#esd-categories ul.lev2 {
+  list-style-type: none;
+  width: 208px;
+  margin: 0px auto;
+  padding: 0px 0 0 0;
+}
+#esd-categories ul.lev2 li {
+  width: 210px;
+  margin: 0 0 0 0;
+  padding: 0 !important;
+  list-style: none;
+  text-align: left;
+  overflow: hidden;
+}
+}
+#esd-categories ul.lev2 li.est-lastitem {
+  margin: 0px;
+  padding: 0px;
+  border: 0 none !important;
+}
+#esd-categories ul.lev2 li a {
+  color: #5f7c8a;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  padding: 7px 0px 7px 15px;
+  margin: 0 0 0 0px;
+  font-weight: normal;
+  transition: all 0.3s ease-out;
+  background: url(".http://aminoffandco.com/Ebay_store_2/wemanufacturejewelry/listing/images/left-img.png") 0px 16px;
+}
+#esd-categories ul.lev2 li a:hover {
+  color: #6c1c88;
+  font-weight: normal;
+  text-indent: 5px;
+}
+#esd-categories ul.lev2 li span {
+  color: #313a43;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  padding: 8px 0px 8px 15px;
+  margin: 0 0 0 10px;
+  font-weight: normal;
+  transition: all 0.7s ease-out;
+  background: url("http://aminoffandco.com/Ebay_store_2/wemanufacturejewelry/listing/images/left-img.png") no-repeat 0px 16px;
+}
+.center{
+  text-align: center;
+margin: auto;
+    padding-left: 309px;
+}
+#LeftPanel3 {
+  width: 210px !important;
+  text-align: left;
+  vertical-align: top !important;
+  padding: 0px;
+  float: left;
+  margin-left: 3px;
+}
+#LeftPanel3 * {
+  padding: 0px;
+  margin: 0px;
+}
+#LeftPanel3 img {
+  border: 0px;
+}
+#LeftPanel3 .ttl {
+  display: none !important;
+}
+#LeftPanel3 .cnt {
+  display: none !important;
+}
+#LeftPanel3 .all_cats {
+  display: none !important;
+}
+#LeftPanel3 .link {
+  display: none !important;
+}
+#LeftPanel3 .v4acpcont {
+  display: none !important;
+}
+.esdmaintwo {
+  margin-top: -5px;
+  background: black;
+  width: 1027px;
+  padding: 9px;
+}
+#title {
+      background: #6c1c88;
+      height: 45px;
+      color: #ece6e6;
+      font-family: 'Lato', sans-serif;
+      font-size: 1.5em;
+      text-align: center;
+      line-height: 1.9em;
+      margin-top: -27px;
+}
+@import url("https://fonts.googleapis.com/css?family=Lato");
+.discription {
+  padding-left: 10px;
+}
+.discription p {
+  padding-left: 15px;
+  padding-right: 10px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 2em;
+  font-size: 14px;
+}
+.discription h3 span {
+  text-align: left;
+  font-style: oblique;
+  line-height: 40px;
+  height: 40px;
+  font-size: 18px;
+  display: block;
+  font-weight: bold;
+  color: grey;
+  padding: 0 5px 0 0;
+  float: left;
+  z-index: 100;
+  position: relative;
+  margin-left: 30px;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.discription h3 i {
+  border-bottom: 1px dashed grey;
+  height: 20px;
+  display: block;
+  position: relative;
+  z-index: 99;
+  margin: 0 5px 0 30px;
+}
+.discription h3 {
+  font-size: 18px;
+  text-align: left;
+  height: 40px;
+  margin-top: 15px;
+  display: block;
+  background: url("http://i61.photobucket.com/albums/h76/Nimo18/dot_zpsz6ai8b6l.png?t=1472787251") no-repeat 0 1px;
+}
+
+/*---tabs---*/
+
+*:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.tab_container {
+  width: 790px;
+  margin: 0 auto;
+  padding-top: 10px;
+  position: relative;
+  margin-left: 230px;
+}
+input, section {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+label {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  display: block;
+  float: left;
+  width: 148px;
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background:#6c1c88;
+}
+label:hover {
+  background:#6c1c88;
+  opacity: 0.9;
+  color: white;
+}
+#tab1:checked~ #content1, #tab2:checked~ #content2, #tab3:checked~ #content3, #tab4:checked~ #content4, #tab5:checked~ #content5 {
+  display: block;
+  padding: 20px;
+  background: #fff;
+  color: #999;
+  border: 1px solid grey;
+}
+.tab_container .tab-content h3 {
+  text-align: center;
+}
+.tab_container [id^="tab"]:checked+ label {}
+.tab_container [id^="tab"]:checked+ label .fa {
+  color: grey;
+}
+label .fa {
+  font-size: 1.3em;
+  margin: 0 0.4em 0 0;
+}
+
+/*Media query*/
+
+@media only screen and (max-width: 930px) {
+  label span {
+      font-size: 14px;
+  }
+  label .fa {
+      font-size: 14px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  label span {
+      display: none;
+  }
+  label .fa {
+      font-size: 16px;
+  }
+  .tab_container {
+      width: 98%;
+  }
+}
+.bounceInLeft {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+@-webkit-keyframes bounceInLeft {
+  0% {
+      opacity: 0;
+      -webkit-transform: translateX(-30px);
+  }
+  60% {
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+  }
+  80% {
+      -webkit-transform: translateX(0px);
+  }
+  100% {
+      -webkit-transform: translateX(0);
+  }
+}
+@keyframes bounceInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-30px);
+  }
+  60% {
+      opacity: 1;
+      transform: translateX(0px);
+  }
+  80% {
+      transform: translateX(0px);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+.bounceInLeft p {
+  padding-left: 15px;
+  padding-right: 10px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1em;
+  text-align: justify;
+  text-indent: 2em;
+  font-size: 13px;
+}
+#esd-shipping {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mainbox {
+  width: 792px;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-left: 230px;
+  border: 1px grey solid;
+}
+#batten {
+  background-color: #6c1c88;
+  width: 120px;
+  padding: 5px;
+  text-align: center;
+  margin-top: -50px;
+  position: absolute;
+  margin-left: 38px;
+  color: white;
+  border-radius: 4px;
+}
+#batten :hover{
+    background-color: #6c1c88;
+    opacity: 0.9;
+}
+#efusion-footer {
+    width: 1000px;
+    height: 220px;
+    padding: 0px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.sc_searchone {
+  width: 991px;
+  height: 40px;
+  float: right;
+  display: inline;
+  margin: 29px -46px 0 0px;
+}
+.sc_searchone .inp_srh {
+  width: 303px;
+  margin-left: -105px;
+  height: 25px;
+  padding: 5px;
+  background: url("http://www.360save.net/toolsempire/images/search_bg.jpg") no-repeat;
+  background-position: top: 2px;
+  left: 2px;
+  border: 2px solid #fff;
+  outline: none;
+  color: #333;
+  line-height: 26px;
+  font-size: 14px;
+  font-family: arial;
+  display: block;
+  float: left;
+}
+.sc_searchone button:hover {
+  color: grey;
+}
+.sc_searchone button {
+  overflow: visible;
+      position: relative;
+      margin-left: -2px;
+      float: left;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+      height: 39px;
+      width: 103px;
+      font: bold 14px/36px 'Raleway', sans-serif;
+      color: #6c1c88;
+      transition: all 0.3s ease-out;
+      text-transform: uppercase;
+      background: #000000;
+      -moz-border-radius: 0 3px 3px 0;
+      -webkit-border-radius: 0 3px 3px 0;
+      border-radius: 0 3px 3px 0;
+}
+.sc_searchone button:before {
+  content: '';
+  position: absolute;
+  border-width: 8px 8px 8px 0;
+  border-style: solid solid solid none;
+  border-color: transparent #000000 transparent;
+  top: 12px;
+  left: -6px;
+}
