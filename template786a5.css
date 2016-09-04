@@ -466,7 +466,7 @@ ul#efusionmenu li a:hover {
 /*---FOOTER->START*/
 .efusion-wrapcens {
 	width: 100%;
-	height:338px;
+	height:392px;
 	background-color:#000000;
 	padding:0;
 	margin:0;
@@ -2000,6 +2000,6 @@ label .fa {
   top: 12px;
   left: -6px;
 }
-#desc_ifr {
+iframe #desc_ifr {
 	width:1394px;
 }
