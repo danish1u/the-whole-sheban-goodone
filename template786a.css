@@ -4,6 +4,7 @@
 
 body {
 	margin:0;
+	background:url("https://raw.githubusercontent.com/subtlepatterns/SubtlePatterns/gh-pages/black-Linen.png");
 }
 /*---HEADER------>START*/
 .efusion-clear { clear: both; }
@@ -20,7 +21,6 @@ text-align: center;
 background-image: url(../images/top-glow.png);
 background-repeat: no-repeat;
 background-position: center top;
-background-color: #fff;
 float: left;
 }
 .efusion-wrapcen {
