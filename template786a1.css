@@ -1949,11 +1949,10 @@ label .fa {
     overflow: hidden;
 }
 .sc_searchone {
-width: 906px;
     height: 40px;
-    float: right;
+    float: left;
     display: inline;
-    margin: 39px -46px 0 0px;
+    margin: 43px 0px 21px 642px;
 }
 .sc_searchone .inp_srh {
     width: 303px;
