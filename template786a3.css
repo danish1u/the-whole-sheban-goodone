@@ -4,7 +4,7 @@
 
 body {
 	margin:0;
-	background:url("https://raw.githubusercontent.com/subtlepatterns/SubtlePatterns/gh-pages/black-Linen.png");
+	
 }
 /*---HEADER------>START*/
 .efusion-clear { clear: both; }
@@ -18,9 +18,7 @@ body {
 padding: 0;
 margin: 0 auto;
 text-align: center;
-background-image: url(../images/top-glow.png);
-background-repeat: no-repeat;
-background-position: center top;
+background:url("https://raw.githubusercontent.com/subtlepatterns/SubtlePatterns/gh-pages/black-Linen.png");
 float: left;
 }
 .efusion-wrapcen {
@@ -1952,7 +1950,7 @@ label .fa {
     height: 40px;
     float: left;
     display: inline;
-    margin: 43px 0px 21px 642px;
+    margin: 43px 0px 21px 500px;
 }
 .sc_searchone .inp_srh {
     width: 303px;
