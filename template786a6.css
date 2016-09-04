@@ -2000,6 +2000,6 @@ label .fa {
   top: 12px;
   left: -6px;
 }
-iframe #desc_ifr {
-	width:1394px;
+#Body .vi-VR-tabCnt {
+	padding: 0 15px 15px 26px;
 }
